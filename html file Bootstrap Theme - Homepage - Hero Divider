@@ -1,0 +1,137 @@
+<!-- add this code in html section of the widget "Bootstrap Theme - Homepage - Hero Divider" -->
+
+<?php if ($wa['custom_96'] != "Bootstrap Theme - Homepage - Hero Divider") { ?>
+    <div class="clearfix clearfix-lg"></div>
+<?php } ?>
+<div id="hero-divider" class="content-container homepage_steps">
+    <div class="container">
+        <div class="col-sm-4 col-xs-4 col-md-4 text-center sm-bmargin homepage_step_1">
+            <?php if ($wa['custom_260']=="" && $wa['custom_263']!=""){ ?>
+            <a class="homepage_step_link" href="<?php echo $wa['custom_263'];?>">
+                <?php } ?>
+                <?php if ($wa['custom_40']!="" && $wa['divider_icon_image_select'] != "image") { ?>
+                    <p>
+                        <i class="fa <?php echo $wa['custom_40']; ?>"></i>
+                    </p>
+                <?php } ?>
+                <?php if ($wa['custom_114']!="" || ($wa['divider_icon_image_select'] == "image" &&  $wa['divider_image_1'] != '')) { ?>
+                    <h4 class="bold sm-nomargin">
+                        <?php if ($wa['divider_icon_image_select'] == "image" &&  $wa['divider_image_1'] != '') { ?>
+                            <?php if($wa['custom_263'] != ''){ ?>
+                                <a href="<?php echo $wa['custom_263']?>">
+                            <?php } ?>
+                            <?php if (!empty($w['lazy_load_images'])) { ?>
+                                <img class="center-block bmargin img-rounded lazyloader" title="<?php echo $wa['custom_114'] ?>" data-src="<?php echo $wa['divider_image_1']?>">
+                            <?php } else { ?>
+                                <img class="center-block bmargin img-rounded" title="<?php echo $wa['custom_114'] ?>" src="<?php echo $wa['divider_image_1']?>">
+                            <?php } ?>
+                            <?php if($wa['custom_263'] != ''){ ?>
+                                </a>
+                            <?php } ?>
+                        <?php } ?>
+                        <?php echo $wa['custom_114']; ?>
+                    </h4>
+                <?php } ?>
+                <?php if ($wa['custom_117']!="") { ?>
+                    <p class="sm-bmargin">
+                        <?php echo $wa['custom_117']; ?>
+                    </p>
+                <?php } ?>
+                <?php if ($wa['custom_260']!="" && $wa['custom_263']!="") { ?>
+                    <a class="btn btn-success xs-center-block" href="<?php echo $wa['custom_263']?>">
+                        <?php echo $wa['custom_260']; ?>
+                    </a>
+                <?php } ?>
+                <?php if ($wa['custom_260']=="" && $wa['custom_263']!=""){ ?>
+            </a>
+        <?php } ?>
+            <div class="clearfix"></div>
+        </div>
+ <!--        <div class="clearfix hidden-lg hidden-md"></div> -->
+        <div class="col-sm-4 col-xs-4 col-md-4 text-center sm-bmargin sm-tmargin homepage_step_2">
+            <?php if ($wa['custom_261']=="" && $wa['custom_264']!=""){ ?>
+            <a class="homepage_step_link" href="<?php echo $wa['custom_264'];?>">
+                <?php } ?>
+                <?php if ($wa['custom_41']!="" && $wa['divider_icon_image_select'] != "image") { ?>
+                    <p class="sm-tmargin">
+                        <i class="fa <?php echo $wa['custom_41']; ?>"></i>
+                    </p>
+                <?php } ?>
+                <?php if ($wa['custom_115']!="" || ($wa['divider_icon_image_select'] == "image" &&  $wa['divider_image_2'] != '')) { ?>
+                    <h4 class="bold sm-nomargin">
+                        <?php if ($wa['divider_icon_image_select'] == "image" &&  $wa['divider_image_2'] != '') { ?>
+                            <?php if($wa['custom_264'] != ''){ ?>
+                                <a href="<?php echo $wa['custom_264']?>">
+                            <?php } ?>
+                            <?php if (!empty($w['lazy_load_images'])) { ?>
+                                <img class="center-block bmargin img-rounded lazyloader" title="<?php echo $wa['custom_115'] ?>" data-src="<?php echo $wa['divider_image_2']?>">
+                            <?php } else { ?>
+                                <img class="center-block bmargin img-rounded" title="<?php echo $wa['custom_115'] ?>" src="<?php echo $wa['divider_image_2']?>">
+                            <?php } ?>
+                            <?php if($wa['custom_264'] != ''){ ?>
+                                </a>
+                            <?php } ?>
+                        <?php } ?>
+                        <?php echo $wa['custom_115']; ?>
+                    </h4>
+                <?php } ?>
+                <?php if ($wa['custom_118']!="") { ?>
+                    <p class="sm-bmargin">
+                        <?php echo $wa['custom_118']; ?>
+                    </p>
+                <?php } ?>
+                <?php if ($wa['custom_261']!="" && $wa['custom_264']!="") { ?>
+                    <a class="btn btn-success xs-center-block" href="<?php echo $wa['custom_264']?>">
+                        <?php echo $wa['custom_261']; ?>
+                    </a>
+                <?php } ?>
+                <?php if ($wa['custom_261']=="" && $wa['custom_264']!=""){ ?>
+            </a>
+        <?php } ?>
+            <div class="clearfix"></div>
+        </div>
+       <!-- <div class="clearfix hidden-lg hidden-md"></div> -->
+        <div class="col-sm-4 col-xs-4 col-md-4 text-center sm-bmargin sm-tmargin homepage_step_2">
+            <?php if ($wa['custom_262']=="" && $wa['custom_265']!=""){ ?>
+            <a class="homepage_step_link" href="<?php echo $wa['custom_265'];?>">
+                <?php } ?>
+                <?php if ($wa['custom_42']!=""  && $wa['divider_icon_image_select'] != "image") { ?>
+                    <p class="sm-tmargin">
+                        <i class="fa <?php echo $wa['custom_42']; ?>"></i>
+                    </p>
+                <?php } ?>
+                <?php if ($wa['custom_116']!="" || ($wa['divider_icon_image_select'] == "image" &&  $wa['divider_image_3'] != '')) { ?>
+                    <h4 class="bold sm-nomargin">
+                        <?php if ($wa['divider_icon_image_select'] == "image" &&  $wa['divider_image_3'] != '') { ?>
+                            <?php if($wa['custom_265'] != ''){ ?>
+                                <a href="<?php echo $wa['custom_265']?>">
+                            <?php } ?>
+                            <?php if (!empty($w['lazy_load_images'])) { ?>
+                                <img class="center-block bmargin img-rounded lazyloader" title="<?php echo $wa['custom_116'] ?>" data-src="<?php echo $wa['divider_image_3']?>">
+                            <?php } else { ?>
+                                <img class="center-block bmargin img-rounded" title="<?php echo $wa['custom_116'] ?>" src="<?php echo $wa['divider_image_3']?>">
+                            <?php } ?>
+                            <?php if($wa['custom_265'] != ''){ ?>
+                                </a>
+                            <?php } ?>
+                        <?php } ?>
+                        <?php echo $wa['custom_116']; ?>
+                    </h4>
+                <?php } ?>
+                <?php if ($wa['custom_119']!="") { ?>
+                    <p>
+                        <?php echo $wa['custom_119']; ?>
+                    </p>
+                <?php } ?>
+                <?php if ($wa['custom_262']!="" && $wa['custom_265']!="") { ?>
+                    <a class="btn btn-success xs-center-block" href="<?php echo $wa['custom_265']?>">
+                        <?php echo $wa['custom_262']; ?>
+                    </a>
+                <?php } ?>
+                <?php if ($wa['custom_262']=="" && $wa['custom_265']!=""){ ?>
+            </a>
+        <?php } ?>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
