@@ -1,0 +1,14 @@
+@media only screen and (max-width: 991px)
+		{
+	.sm-tmargin {
+    margin-top: 0px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .homepage_steps {
+    font-size: 11px;
+}
+	.homepage_steps .fa {
+    font-size: 44px;
+}
+}
